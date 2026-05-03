@@ -1,0 +1,8 @@
+verdiSetActWin -dock widgetDock_<Decl._Tree>
+simSetSimulator "-vcssv" -exec "/home/st26/HW4/simv" -args
+debImport "-dbdir" "/home/st26/HW4/simv.daidir"
+debLoadSimResult /home/st26/HW4/waves.fsdb
+wvCreateWindow
+verdiWindowResize -win $_Verdi_1 "190" "50" "900" "700"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+debExit
